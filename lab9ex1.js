@@ -1,6 +1,6 @@
 //This will output when the page loads
 var start = new Date();
-var seconds = newdate.getSeconds();
+var seconds = start.getSeconds();
 
 console.log(seconds);
 
