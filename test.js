@@ -1,4 +1,4 @@
-var newdat = new Date();
+var newdate = new Date();
 
 var day = newdate.getDate();
 
