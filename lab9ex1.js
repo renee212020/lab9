@@ -7,9 +7,11 @@ console.log(seconds);
 //This will output when a button is pressed
 var stop = new Date();
 
+console.log(seconds);
 
 document.getElementById("stoptime").innerHTML=result;
+
 var myConfirm =confirm("Please Confirm");
 
-console.log(seconds);
+
 console.log(myConfirm);
