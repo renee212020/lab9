@@ -6,7 +6,7 @@ var month = newdate.getMonth()+1;
 
 var year = newdate.getFullYear();
 
-var daymonthyear = day + month + year;
+var daymonthyear = day + "/" + month + "/" + year;
 
 console.log(day);
 console.log(month);
