@@ -7,7 +7,7 @@ console.log(seconds);
 //This will output when a button is pressed
 var stop = new Date();
 
-console.log(seconds);
+console.log(stop);
 
 document.getElementById("stoptime").innerHTML=result;
 
