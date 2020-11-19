@@ -1,16 +1,11 @@
-
 var start = new Date();
-var seconds = start.getSeconds();
 
-console.log(seconds);
+function stopTime() {
+  var stop = new Date();
 
-var stop = new Date();
+  var startseconds = start.getSeconds();
+  var stopseconds = stop.getSeconds();
+  var difference = stopseconds - startseconds;
 
-console.log(stop);
-
-document.getElementById("stoptime").innerHTML=result;
-
-var myConfirm =confirm("Please Confirm");
-
-
-console.log(myConfirm);
+alert("It has been" +difference+ "seconds");
+}

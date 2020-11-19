@@ -1,11 +1,13 @@
-var myPrompt =prompt("Please enter your age");
+var age =prompt("Please enter your age");
 
-console.log(myPrompt);
+console.log(age);
 
-var newdate = new Date();
-var year = newdate.getFullYear();
-
-var birthyear = year - myprompt;
+var newDate = new Date();
+var year = newDate.getFullYear();
 
 console.log(year);
-console.log(birthyear);
+console.log(birthYear);
+
+var birthYear = year - age;
+
+document.getElementById("output").innerHTML = birthYear;
